@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Harmattan&family=Rubik:wght@500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="flow" style="display: none">
+        <div class="up">
+          <i
+            onclick="hide();"
+            class="fa-solid fa-circle-xmark"
+            style="
+              font-size: 30px;
+              color: black;
+              float: right;
+              cursor: pointer;
+              margin-right: 5px;
+            "
+          ></i>
+        </div>
+        <div class="down">You have entered invalid inputs !!</div>
+      </div>
+      <div class="display-country-city">
+        <h1></h1>
+        <h2></h2>
+        <h3></h3>
+      </div>
+      <div class="region">
+        <select name="country" id="country">
+          <option value="فلسطين" class="country">فلسطين</option>
+          <option value="لبنان" class="country">لبنان</option>
+          <option value="الاردن" class="country">الاردن</option>
+          <option value="مصر" class="country">مصر</option>
+        </select>
+        <select name="city" id="city">
+          <option value="نابلس" class="city">نابلس</option>
+          <option value="جنين" class="city">جنين</option>
+          <option value="الخليل" class="city">الخليل</option>
+          <option value="القاهرة" class="city">القاهرة</option>
+          <option value="عمان" class="city">عمان</option>
+          <option value="بيروت" class="city">بيروت</option>
+        </select>
+        <button id="display" onclick="display();">Display</button>
+      </div>
+      <div class="prayer-times">
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+        <div class="box">
+          <h2></h2>
+          <h3></h3>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
