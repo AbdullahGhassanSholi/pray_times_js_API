@@ -3,9 +3,9 @@
 
 <h1 align="left">The appearance of my project</h1>
 
-  <p style="text-align:center">
+  <p style="align=center">
 <img src="1.png"></p>
-<p style="text-align:center">
+<p style="align=center">
 <img src="3.png"></p>
   
   <img src="2.png">
