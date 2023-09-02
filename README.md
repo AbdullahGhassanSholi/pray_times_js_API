@@ -2,13 +2,14 @@
 
 
 <h1 align="left">The appearance of my project</h1>
-<div style="display:flex; justify-content:center;">
-<img src="1.png">
 
-<img src="3.png">
+  <p style="text-align:center">
+<img src="1.png"></p>
+<p style="text-align:center">
+<img src="3.png"></p>
   
   <img src="2.png">
-  </div>
+ 
 <h1 align="left">Hey 👋 What's up?</h1>
 
 ###
