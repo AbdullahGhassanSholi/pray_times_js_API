@@ -3,10 +3,10 @@
 
 <h1 align="left">The appearance of my project</h1>
 
-  <p style="align=center">
-<img src="1.png"></p>
-<p style="align=center">
-<img src="3.png"></p>
+ 
+<img src="1.png">
+
+<img src="3.png" align="center">
   
   <img src="2.png">
  
