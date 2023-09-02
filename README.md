@@ -5,8 +5,10 @@
 
  
 <img src="1.png">
+<p align="center">
+  <img src="3.png" align="center">
+</p>
 
-<img src="3.png" align="center">
   
   <img src="2.png">
  
