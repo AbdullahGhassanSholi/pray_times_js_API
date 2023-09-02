@@ -9,8 +9,11 @@
   <img src="3.png">
 </p>
 
-  
+<p align="center">
   <img src="2.png">
+</p>
+
+ 
  
 <h1 align="left">Hey 👋 What's up?</h1>
 
