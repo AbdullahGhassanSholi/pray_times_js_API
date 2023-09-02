@@ -3,8 +3,10 @@
 
 <h1 align="left">The appearance of my project</h1>
 <img src="1.png">
+<center>
 <img src="3.png">
-<img src="2.png">
+  </center>
+  <center><img src="2.png"></center>
 <h1 align="left">Hey 👋 What's up?</h1>
 
 ###
